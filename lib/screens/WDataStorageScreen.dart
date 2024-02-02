@@ -35,14 +35,14 @@ class _CGDataStorageScreenState extends State<CGDataStorageScreen> {
               title: 'Manage storage',
               subtitle: '3.0 GB',
             ),
-            Divider(),
+            const Divider(),
             SettingWidget(
               icon: Icons.network_check_sharp,
               title: 'Network usage',
               subtitle: '3.5 GB sent · 9.4 GB received',
             ),
             SwitchListTile(
-              contentPadding: EdgeInsets.only(right: 16.0, left: 70.0, top: 12.0),
+              contentPadding: const EdgeInsets.only(right: 16.0, left: 70.0, top: 12.0),
               title: Text(
                 'Use less data for calls',
                 style: primaryTextStyle(),
@@ -54,24 +54,24 @@ class _CGDataStorageScreenState extends State<CGDataStorageScreen> {
                 _isCheck = v;
               },
             ),
-            Divider(),
+            const Divider(),
             SettingItemHeader(
               title: 'Media auto-download',
               subtitle: 'Voice messages are always automatically downloaded',
-              padding: EdgeInsets.only(top: 0.0, left: 70.0, right: 16.0, bottom: 4.0),
+              padding: const EdgeInsets.only(top: 0.0, left: 70.0, right: 16.0, bottom: 4.0),
             ),
             SettingWidget(
-              padding: EdgeInsets.only(right: 16.0, left: 70.0),
+              padding: const EdgeInsets.only(right: 16.0, left: 70.0),
               title: 'When using mobile data',
               subtitle: 'No media',
             ),
             SettingWidget(
-              padding: EdgeInsets.only(right: 16.0, left: 70.0),
+              padding: const EdgeInsets.only(right: 16.0, left: 70.0),
               title: 'When connected on Wi-Fi',
               subtitle: 'No media',
             ),
             SettingWidget(
-              padding: EdgeInsets.only(right: 16.0, left: 70.0),
+              padding: const EdgeInsets.only(right: 16.0, left: 70.0),
               title: 'When roaming',
               subtitle: 'No media',
             ),

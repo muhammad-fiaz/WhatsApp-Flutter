@@ -1,24 +1,31 @@
+// Importing necessary packages and modules
 import 'package:whatsapp/screens/WAPayment/WPaymentHelpScreen.dart';
 import 'package:whatsapp/utils/WColors.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
 import '../../components/model/WChatModel.dart';
 
+// This widget is the root of the application.
 class CGPaymentBankDetails extends StatefulWidget {
+  // The details of the bank payment
   final PaymentBank? detail;
 
+  // Constructor for the class, accepts bank details as an argument
   CGPaymentBankDetails({this.detail});
 
+  // Creates the mutable state for this widget at a given location in the tree.
   @override
   _CGPaymentBankDetailsState createState() => _CGPaymentBankDetailsState();
 }
 
+// This class holds the state for the CGPaymentBankDetails widget.
 class _CGPaymentBankDetailsState extends State<CGPaymentBankDetails> {
+  // Describes the part of the user interface represented by this widget.
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        // Setting the background color of the scaffold
         backgroundColor: Colors.grey[300],
         appBar: AppBar(
             backgroundColor: secondaryColor,
@@ -40,12 +47,14 @@ class _CGPaymentBankDetailsState extends State<CGPaymentBankDetails> {
                   itemBuilder: (context) => [const PopupMenuItem(value: 1, child: Text("Switch payment provider")), const PopupMenuItem(value: 2, child: Text("Remove payment method"))])
             ]),
         body: Column(
+          // Building the body of the scaffold
           children: [_buildBankDetail(), _buildBankActiobDetail(), _buildHelp()],
         ),
       ),
     );
   }
 
+  // This method builds the bank detail widget
   _buildBankDetail() {
     return Container(
       padding: const EdgeInsets.all(16),
@@ -67,6 +76,7 @@ class _CGPaymentBankDetailsState extends State<CGPaymentBankDetails> {
     );
   }
 
+  // This method builds the bank action detail widget
   _buildBankActiobDetail() {
     return Container(
       padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
@@ -84,6 +94,7 @@ class _CGPaymentBankDetailsState extends State<CGPaymentBankDetails> {
     );
   }
 
+  // This method builds the action data widget
   _actionData(Icon icon, String name) {
     return Container(
       padding: const EdgeInsets.only(top: 16),
@@ -93,6 +104,7 @@ class _CGPaymentBankDetailsState extends State<CGPaymentBankDetails> {
     );
   }
 
+  // This method builds the help widget
   _buildHelp() {
     return InkWell(
       onTap: () {

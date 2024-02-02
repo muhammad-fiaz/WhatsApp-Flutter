@@ -22,7 +22,7 @@ class SettingWidget extends StatefulWidget {
   final String? subtitle;
   final Function? onTap;
   final padding;
-  SettingWidget({super.key, this.icon, this.title, this.subtitle, this.onTap, this.padding});
+  const SettingWidget({super.key, this.icon, this.title, this.subtitle, this.onTap, this.padding});
 
   @override
   _SettingWidgetState createState() => _SettingWidgetState();
@@ -54,7 +54,7 @@ class SettingItemHeader extends StatefulWidget {
 
   final padding;
 
-  SettingItemHeader({super.key, this.title, this.subtitle, this.padding});
+  const SettingItemHeader({super.key, this.title, this.subtitle, this.padding});
 
   @override
   _SettingItemHeaderState createState() => _SettingItemHeaderState();
