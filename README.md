@@ -10,6 +10,9 @@ This repository is a WhatsApp clone developed using the Flutter framework. It re
 - ready-to-use UI components
 - cross-platform support
 
+## Screenshots
+![preview](https://github.com/muhammad-fiaz/WhatsApp-Flutter/assets/75434191/881ac55a-4269-4577-a576-0e2a2614bb58)
+
 
 **Note:—This Flutter App Contains a Content Filler for Demo Purposes**
 
