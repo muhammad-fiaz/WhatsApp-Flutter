@@ -2,10 +2,14 @@ import 'package:whatsapp/utils/WConstant.dart';
 import 'package:flutter/material.dart';
 
 import '../components/model/WChatModel.dart';
+// List of chat models representing the chats in the application
 
 List<ChatModel> chats = [
   ChatModel(
-    sender: michael,
+    // Each ChatModel represents a single chat with its details
+    // such as sender, text, time, date, video, call, callRecived, callConnect, and unread
+
+  sender: michael,
     text: 'When we are having Flutter Workshop',
     time: '15:30 PM',
     date: '20 January,',
@@ -83,8 +87,11 @@ List<ChatModel> chats = [
   ),
 ];
 
-//Example for messages conversation
+// List of chat models representing the messages in a conversation
 List<ChatModel> message = [
+  // Each ChatModel represents a single message with its details
+  // such as sender, text, time, date, video, callRecived, callConnect, and unread
+
   ChatModel(
     sender: michael,
     text: 'I hope we will meet soon',
@@ -157,7 +164,7 @@ List<ChatModel> message = [
   ),
 ];
 
-//popup menu item list
+// List of popup menu items for the chat screen
 List<PopupMenuItem> chatpopupItem = [
   const PopupMenuItem(value: 1, child: Text('New group')),
   const PopupMenuItem(value: 2, child: Text('New Broadcast')),
@@ -166,11 +173,12 @@ List<PopupMenuItem> chatpopupItem = [
   const PopupMenuItem(value: 6, child: Text("Payment")),
   const PopupMenuItem(value: 5, child: Text('Settings'))
 ];
-
+// List of popup menu items for the status screen
 List<PopupMenuItem> statuspopupItem = [const PopupMenuItem(value: 1, child: Text('Status privacy')), const PopupMenuItem(value: 5, child: Text('Settings'))];
+// List of popup menu items for the call screen
 List<PopupMenuItem> callpopupItem = [const PopupMenuItem(value: 1, child: Text('Clear call log')), const PopupMenuItem(value: 5, child: Text('Settings'))];
 
-//popup menu for message screen
+// List of popup menu items for the message screen
 final List<PopupMenuEntry> menuEntry = [
   const PopupMenuItem(value: 1, child: Text("View contact")),
   const PopupMenuItem(value: 2, child: Text("Media, Link, and docs")),
@@ -209,7 +217,7 @@ List<PaymentBank> banklist = [axis, hdfc, icici, sbi, allahabad, bob, boi, citi,
 /* bank data */
 List<PaymentBank> payBankData = [axis];
 
-/* profile scree horizontal image */
+// List of images for the profile screen
 final List<String> docimg = [
   'https://randomuser.me/api/portraits/men/96.jpg',
   'https://randomuser.me/api/portraits/men/95.jpg',
