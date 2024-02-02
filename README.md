@@ -33,7 +33,7 @@ This repository is a WhatsApp clone developed using the Flutter framework. It re
 
 ## Project Overview
 
-The Quiz App includes the following features:
+The Whats App includes the following features:
 - User-friendly quiz interface.
 - Clean and responsive design.
 - Flutter-based mobile application.
