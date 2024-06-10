@@ -1,5 +1,22 @@
-# WhatsApp
+<div style="text-align: center;">
 
+# Whatsapp Clone using Flutter
+
+[![License](https://img.shields.io/github/license/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/stargazers)
+[![Forks](https://img.shields.io/github/forks/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/graphs/contributors)
+[![GitHub watchers](https://img.shields.io/github/watchers/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/watchers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/muhammad-fiaz/WhatsApp-Flutter)](https://github.com/muhammad-fiaz/WhatsApp-Flutter/commits/main)
+<a href="https://discord.gg/uRkZ5cHf" target="_blank">
+  <img
+    src="https://dcbadge.limes.pink/api/server/https://discord.gg/uRkZ5cHf?style=shield"
+    alt="discord invite"
+  />
+</a>
+</div>
 This repository is a WhatsApp clone developed using the Flutter framework. It replicates the core features of WhatsApp, offering a practical example for Flutter developers.
 
 ## Features
